@@ -17914,6 +17914,20 @@
     - Level: 3
       Area: 4
   CastCancel: true
+776:
+    Name: NPC_DEADLYCURSE
+    Description: Deadly Curse
+    MaxLevel: 1
+    TargetType: Attack
+    DamageFlags:
+      NoDamage: true
+    Flags:
+      IsNpc: true
+    Range: 3
+    Hit: Single
+    HitCount: 1
+    Duration1: 30000
+    Status: Deadly_Defeasance
 777:
   Name: NPC_RANDOMBREAK
   Description: Break Random
