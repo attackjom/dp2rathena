@@ -17781,6 +17781,14 @@
   Element: Weapon
   Duration2: 108000
   FixedCastTime: -1
+765:
+  Name: NPC_ICEBREATH2
+  Description: Ice Breath 2
+  MaxLevel: 10
+767:
+  Name: NPC_EVILLAND2
+  Description: Evil Land 2
+  MaxLevel: 10
 768:
   Name: NPC_HELLJUDGEMENT2
   Description: Hell's Judgement 2
@@ -40309,6 +40317,11 @@
   Hit: Single
   HitCount: 1
   Element: Weapon
+5385:
+    Name: BO_WOODEN_ATTACK
+    Description: Wooden Attack
+    MaxLevel: 1
+
 5386:
   Name: BIO_HELL_DUSTY
   Description: Hell Dusty

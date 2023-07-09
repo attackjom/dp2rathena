@@ -26,6 +26,8 @@ class Mapper:
             'Attack2': lambda d: d['stats']['atk2'],
             'Defense': lambda d: d['stats']['defense'],
             'MagicDefense': lambda d: d['stats']['magicDefense'],
+            'Resistance': lambda d: d['stats']['res'],
+            'MagicResistance': lambda d: d['stats']['mres'],
             'Str': lambda d: d['stats']['str'],
             'Agi': lambda d: d['stats']['agi'],
             'Vit': lambda d: d['stats']['vit'],

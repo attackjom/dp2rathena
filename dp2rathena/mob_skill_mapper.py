@@ -60,6 +60,10 @@ class Mapper:
             'IF_SKILLUSE': 'skillused',              # When the specified skill is used on the mob
             'IF_MAGICLOCKED': 'casttargeted',        # When a target is in cast range (no condition value)
             'IF_RUDEATTACK': 'rudeattacked',         # When mob is rude attacked (no condition value)
+            'IF_HEAVYDAMAGE': 'damagedgt',         # When mob is attacked more than value damage
+            'IF_MONSTERCOUNT': 'mobnearbygt',         # When other mob is around
+            'IF_GROUNDATTACKCHECK': 'groundattacked',         # When other mob is around
+            'IF_JOBCHECK': 'jobcheck',               # When target is specified job
             # Below types are RA-exclusive and aren't clearly mapped to DP data
             # - onspawn
             # - myhpinrate
@@ -165,6 +169,8 @@ class Mapper:
         if data['condition'] == 'IF_COMRADEHP' \
             or data['condition'] == 'IF_COMRADECONDITION':
             return 'friend'
+        elif self._skill_db_value(data['skillId'], 'Name') == 'AL_HEAL' or self._skill_db_value(data['skillId'], 'Name') == 'NPC_CHEAL' or self._skill_db_value(data['skillId'], 'Name') == 'AM_POTIONPITCHER':
+            return 'self'
         elif self._skill_db_value(data['skillId'], 'TargetType') == 'Self':
             return 'self'
         return 'target' # Default value, other types unclear from DP data
