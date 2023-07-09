@@ -40321,24 +40321,14 @@
     Name: BO_WOODEN_ATTACK
     Description: Wooden Attack
     MaxLevel: 1
-
 5386:
-  Name: BIO_HELL_DUSTY
-  Description: Hell Dusty
-  MaxLevel: 10
-  Type: Weapon
-  TargetType: Self
-  DamageFlags:
-    Splash: true
-  Flags:
-    IsNpc: true
-    TargetTrap: true
-    ShowScale: true
-  Hit: Single
-  HitCount: 1
-  SplashArea: 7
-  Duration1: 30000
-  FixedCastTime: -1
+    Name: BO_HELL_HOWLING
+    Description: Hell Howling
+    MaxLevel: 10
+5387:
+    Name: BIO_HELL_DUSTY
+    Description: Hell Dusty
+    MaxLevel: 1
 5388:
   Name: BO_FAIRY_DUSTY
   Description: Fairy Dusty
