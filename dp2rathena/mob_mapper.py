@@ -162,8 +162,14 @@ class Mapper:
 
     # 10% for MVPs, 100% for all other mobs
     def _damageTaken(self, data):
-        self._validate(data['stats'], 'mvp')
-        return 10 if data['stats']['mvp'] == 1 else None
+        self._validate(data['stats'], 'attr')
+        if data['stats']['attr'] & 0x200:
+            return 10
+        elif data['stats']['attr'] & 0x400:
+            return 1
+        else:
+            return None
+
 
     # Last two characters e.g. 'MONSTER_TYPE_13' -> 13
     def _ai(self, data):
