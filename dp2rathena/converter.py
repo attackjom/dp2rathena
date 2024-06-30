@@ -84,7 +84,15 @@ class Converter:
                 },
                 'Body': mobs,
             }
-        return self.remove_numerical_quotes(yaml.dump(mobs, sort_keys=False))
+        return self.remove_numerical_quotes(self.dump_with_indent(mobs))
+
+    def dump_with_indent(self, data):
+        class IndentDumper(yaml.Dumper):
+            def increase_indent(self, flow=False, indentless=False):
+                return super(IndentDumper, self).increase_indent(flow, False)
+
+        return yaml.dump(data, Dumper=IndentDumper, sort_keys=False, default_flow_style=False)
 
     def remove_numerical_quotes(self, payload):
-        return re.sub(r'(.*)\'(\d+)\'(.*)', r'\1\2\3', payload)
+        return re.sub(r"(.*)'(\d+)'(.*)", r'\1\2\3', payload)
+
