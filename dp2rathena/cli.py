@@ -224,10 +224,21 @@ def mob(ctx, file, sort, wrap, debug, value):
     else:
         if len(value) == 0:
             raise click.UsageError('Mob id required.')
+        to_convert = []
         for v in value:
-            if not v.isdigit():
+            if '-' in v:
+                try:
+                    start, end = map(int, v.split('-'))
+                    if start > end:
+                        raise click.UsageError(f'Invalid range {v}')
+                    to_convert.extend(map(str, range(start, end + 1)))
+                except ValueError:
+                    raise click.UsageError(f'Invalid range format {v}')
+            elif v.isdigit():
+                to_convert.append(v)
+            else:
                 raise click.UsageError(f'Non-integer mob id - {v}')
-        to_convert = value
+    
     api_key = ctx.obj[DP_KEY]
     click.echo(
         converter.Converter(api_key, debug).convert_mob(to_convert, sort, wrap)
