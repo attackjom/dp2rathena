@@ -6043,9 +6043,9 @@ items:
   9140: Blue_Moon_Loli_Ruri_Egg
   9141: Wild_Rose_Egg
   9142: Eddga_Egg2
-  9145: aegis_9145
-  9146: aegis_9146
-  9147: aegis_9147
+  9145: Copo_Egg
+  9146: Grey_Icewind_Egg
+  9147: Icewind_Egg
   9510: Enchant_Stone_Box17
   9514: Ein_Ddbox
   9517: Ein_UNDIUM
@@ -17865,7 +17865,7 @@ items:
   101364: OS_Weapon_Hammer
   101389: Helm_Of_Faith_Hammer
   101390: Clock_Tower_W_Hammer
-  101399: aegis_101399
+  101399: Enchant_Ticket_3
   101416: Enchant_Stone_Box27
   101423: Boost_Armor_Box
   101453: Special_Coin_Pack
@@ -17895,9 +17895,9 @@ items:
   101555: aegis_101555
   101556: aegis_101556
   101557: aegis_101557
-  101563: aegis_101563
+  101563: OS_Helm_Box_
   101564: AllMighty_Up
-  101565: aegis_101565
+  101565: Shadow_R_M_Box_
   101637: EP19_DGW_Refine
   101639: D_Gw_Extractor
   101654: aegis_101654
@@ -17929,6 +17929,10 @@ items:
   101729: aegis_101729
   101745: Dimmen_A_Reform
   101746: Dimmen_A_Enchant
+  101759: Plain_Rune_Box5
+  101760: Flame_Rune_Box5
+  101761: Ice_Rune_Box5
+  101762: Death_Rune_Box5
   101769: Barmund_Plain_Reform
   101770: Barmund_Death_Reform
   101771: Barmund_Flame_Reform
@@ -17936,6 +17940,9 @@ items:
   101816: Dimmen_A_Refine
   101869: Luxurious_Blue_Box
   101876: Enchant_Stone_Box29
+  101912: Temple_Rune_Box5
+  101913: Venom_Rune_Box5
+  101914: Soul_Rune_Box5
   101933: Barmund_Soul_Reform
   101934: Barmund_Venom_Reform
   101935: Barmund_Temple_Reform
@@ -18009,7 +18016,7 @@ items:
   102310: Bs_Item_M_S_62
   102311: Bs_Item_M_S_63
   102332: Enchant_Stone_Box31
-  102333: aegis_102333
+  102333: Stone_Robe3_Box
   102342: Loki_Advice_3
   102343: Loki_Coin_3
   102344: Fan_Upgrade_Kit_EX
@@ -18262,48 +18269,48 @@ items:
   300287: The_High_Priestress_Reversed_Card
   300288: The_Tower_Card
   300289: The_Tower_Reversed_Card
-  300292: aegis_300292
-  300293: aegis_300293
-  300294: aegis_300294
-  300295: aegis_300295
-  300296: aegis_300296
-  300297: aegis_300297
-  300307: aegis_300307
+  300292: Extra_Joker_Card
+  300293: Erzsebet_Card
+  300294: Jeniffer_Card
+  300295: General_Orc_Card
+  300296: Sieglouse_Card
+  300297: Goblin_King_Card
+  300307: Meyer_Card
   300308: S_Meyer_Card
   300309: Helmut_Card
   300310: S_Helmut_Card
   300348: SLD_G_Amon_Ra_Card_J
-  300359: aegis_300359
-  300360: aegis_300360
-  300361: aegis_300361
-  300362: aegis_300362
-  300363: aegis_300363
-  300364: aegis_300364
-  300365: aegis_300365
-  300366: aegis_300366
-  300367: aegis_300367
-  300368: aegis_300368
-  300369: aegis_300369
-  300370: aegis_300370
-  300371: aegis_300371
-  300372: aegis_300372
-  300373: aegis_300373
-  300374: aegis_300374
-  300375: aegis_300375
-  300376: aegis_300376
-  300377: aegis_300377
-  300378: aegis_300378
-  300379: aegis_300379
-  300380: aegis_300380
-  300381: aegis_300381
-  300382: aegis_300382
+  300359: Ice_Gangu_Card
+  300360: Shining_Seaweed_Card
+  300361: Ice_Straw_Card
+  300362: Unfrost_Flower_card
+  300363: Limacina_Card
+  300364: Calmaring_Card
+  300365: Primitive_Rgan_Card
+  300366: Lowest_Rgan_Card
+  300367: Junior_Rgan_Card
+  300368: Middle_G_Rgan_Card
+  300369: Discarded_P_R_Card
+  300370: Discarded_L_R_Card
+  300371: Cave_Calmaring_Card
+  300372: Cave_Un_Flower_Card
+  300373: B_Hallucigenia_Card
+  300374: Hallucigenia_Card
+  300375: One_E_Dollocaris_Card
+  300376: Eyes_Dollocaris_Card
+  300377: Ultra_Limacina_Card
+  300378: Simulation_Juncea_Card
+  300379: R_Superior_Rgan_Card
+  300380: E_Inter_Rgan_Card
+  300381: Heart_Hunter_AT_Card
+  300382: Aquila_Card
   300385: VF_Effect_TW
-  300421: aegis_300421
-  300422: aegis_300422
-  300423: aegis_300423
-  300424: aegis_300424
-  300425: aegis_300425
-  300426: aegis_300426
+  300421: Catherine_Card
+  300422: S_Catherine_Card
+  300423: Friedrich_Card
+  300424: S_Friedrich_Card
+  300425: Crux_Card
+  300426: S_Crux_Card
   300441: Burning_Knight_Card
   300442: Dedsera_Card
   300443: Hardrock_Titan_Card
@@ -18315,26 +18322,26 @@ items:
   300449: Timbers_Card
   300450: Renire_Card
   300454: Ice_C_Orb_Hp
-  300455: aegis_300455
-  300456: aegis_300456
-  300457: aegis_300457
-  300458: aegis_300458
-  300459: aegis_300459
-  300460: aegis_300460
-  300461: aegis_300461
-  300462: aegis_300462
-  300463: aegis_300463
-  300464: aegis_300464
-  300465: aegis_300465
-  300466: aegis_300466
-  300467: aegis_300467
-  300468: aegis_300468
-  300469: aegis_300469
-  300470: aegis_300470
-  300471: aegis_300471
-  300472: aegis_300472
-  300473: aegis_300473
-  300474: aegis_300474
+  300455: Copo_Card
+  300456: Icewind_Egg_Card
+  300457: Grey_Icewind_Card
+  300458: Icewind_Card
+  300459: E_Rgan_Healer_Card
+  300460: Jormun_Guardian_Card
+  300461: Fake_Iwin_S_Card
+  300462: S_Rgan_Warlock_Card
+  300463: S_Rgan_Healer_Card
+  300464: E_Rgan_Warlock_Card
+  300465: E_Rgan_Guardian_Card
+  300466: E_Rgan_Cleaner_Card
+  300467: Angel_Iceslug_Card
+  300468: Rabbit_Iceslug_card
+  300469: Melibe_Iceslug_Card
+  300470: Icebear_Card
+  300471: F_Angel_Iceslug_Card
+  300472: Demigod_Lasgand_Card
+  300473: Snow_Angel_Card
+  300474: Rgan_Chief_Clean_Card
   310000: Ranger_Top2
   310001: Ranger_Middle2
   310002: Ranger_Bottom2
@@ -18464,66 +18471,66 @@ items:
   310189: Assassincross_Bottom2
   310190: Assassincross_Middle2
   310191: Assassincross_Top2
-  310197: aegis_310197
-  310198: aegis_310198
-  310199: aegis_310199
-  310200: aegis_310200
-  310201: aegis_310201
-  310202: aegis_310202
-  310203: aegis_310203
-  310204: aegis_310204
-  310205: aegis_310205
-  310206: aegis_310206
-  310207: aegis_310207
-  310208: aegis_310208
-  310209: aegis_310209
-  310210: aegis_310210
-  310211: aegis_310211
-  310212: aegis_310212
-  310213: aegis_310213
-  310214: aegis_310214
-  310215: aegis_310215
-  310216: aegis_310216
-  310217: aegis_310217
-  310218: aegis_310218
-  310219: aegis_310219
-  310220: aegis_310220
-  310221: aegis_310221
-  310222: aegis_310222
-  310223: aegis_310223
-  310224: aegis_310224
-  310225: aegis_310225
-  310226: aegis_310226
-  310227: aegis_310227
-  310228: aegis_310228
-  310229: aegis_310229
-  310230: aegis_310230
-  310231: aegis_310231
-  310232: aegis_310232
-  310233: aegis_310233
-  310234: aegis_310234
-  310235: aegis_310235
-  310236: aegis_310236
-  310237: aegis_310237
-  310238: aegis_310238
-  310239: aegis_310239
-  310240: aegis_310240
-  310241: aegis_310241
-  310242: aegis_310242
-  310243: aegis_310243
-  310244: aegis_310244
-  310245: aegis_310245
-  310246: aegis_310246
-  310247: aegis_310247
-  310248: aegis_310248
-  310249: aegis_310249
-  310250: aegis_310250
-  310251: aegis_310251
-  310252: aegis_310252
-  310253: aegis_310253
-  310254: aegis_310254
-  310255: aegis_310255
-  310256: aegis_310256
+  310197: Tha_Anger_1
+  310198: Tha_Anger_2
+  310199: Tha_Anger_3
+  310200: Tha_Anger_4
+  310201: Tha_Anger_5
+  310202: Tha_Horror_1
+  310203: Tha_Horror_2
+  310204: Tha_Horror_3
+  310205: Tha_Horror_4
+  310206: Tha_Horror_5
+  310207: Tha_Resent_1
+  310208: Tha_Resent_2
+  310209: Tha_Resent_3
+  310210: Tha_Resent_4
+  310211: Tha_Resent_5
+  310212: Tha_Regret_1
+  310213: Tha_Regret_2
+  310214: Tha_Regret_3
+  310215: Tha_Regret_4
+  310216: Tha_Regret_5
+  310217: Tha_Empatize_1
+  310218: Tha_Empatize_2
+  310219: Tha_Empatize_3
+  310220: Tha_Empatize_4
+  310221: Tha_Empatize_5
+  310222: Tha_Happy_1
+  310223: Tha_Happy_2
+  310224: Tha_Happy_3
+  310225: Tha_Happy_4
+  310226: Tha_Happy_5
+  310227: Tha_Comfort_1
+  310228: Tha_Comfort_2
+  310229: Tha_Comfort_3
+  310230: Tha_Comfort_4
+  310231: Tha_Comfort_5
+  310232: Tha_Console_1
+  310233: Tha_Console_2
+  310234: Tha_Console_3
+  310235: Tha_Console_4
+  310236: Tha_Console_5
+  310237: Tha_Wrath_1
+  310238: Tha_Wrath_2
+  310239: Tha_Wrath_3
+  310240: Tha_Wrath_4
+  310241: Tha_Wrath_5
+  310242: Tha_Majesty_1
+  310243: Tha_Majesty_2
+  310244: Tha_Majesty_3
+  310245: Tha_Majesty_4
+  310246: Tha_Majesty_5
+  310247: Tha_demigod_1
+  310248: Tha_demigod_2
+  310249: Tha_demigod_3
+  310250: Tha_demigod_4
+  310251: Tha_demigod_5
+  310252: Tha_Antigod_1
+  310253: Tha_Antigod_2
+  310254: Tha_Antigod_3
+  310255: Tha_Antigod_4
+  310256: Tha_Antigod_5
   310257: Runeknight_Robe2
   310258: Runeknight_Top2
   310259: Runeknight_Middle2
@@ -20918,6 +20925,7 @@ items:
   420182: Book_of_Sorcery
   420187: Sacred_Lapel
   420198: Sanctus
+  420201: aegis_420201
   420209: C_Cookie_PinkRibbon
   420210: Heart_Ace_Melee
   420213: Spade_Ace_Melee
@@ -21613,7 +21621,7 @@ items:
   490215: E_Auto_B_L
   490216: E_Auto_BC_R
   490217: E_Auto_BC_L
-  490220: aegis_490220
+  490220: Hero_Token_HN
   490243: Ring_of_Silver_Claw
   490244: Cardinal_Ring
   490251: aegis_490251
@@ -21630,7 +21638,7 @@ items:
   490277: Dimmension_W_Padlock
   490278: Dimmension_W_Keyring
   490290: Ameretat
-  490297: aegis_490297
+  490297: Barmund_Ring
   490299: Barmund_Soul_Ring
   490300: Barmund_Venom_Ring
   490301: Barmund_Temple_Ring
@@ -22790,7 +22798,7 @@ items:
   1000678: Poring_Family_Balloon_Enchant_Ticket
   1000680: ClockTower_Lead
   1000681: ClockTower_Gear
-  1000682: aegis_1000682
+  1000682: ClockTower_key
   1000685: Conse_F_Humma
   1000686: Conse_F_C_Humma
   1000687: Conse_F_Revolver
@@ -23164,14 +23172,14 @@ items:
   1001327: SuNoviceStone_Top
   1001328: SuNoviceStone_Middle
   1001329: SuNoviceStone_Bottom
-  1001330: aegis_1001330
-  1001331: aegis_1001331
-  1001332: aegis_1001332
-  1001333: aegis_1001333
-  1001334: aegis_1001334
-  1001335: aegis_1001335
-  1001336: aegis_1001336
-  1001337: aegis_1001337
+  1001330: Bar_D_Fl_Specimen
+  1001331: Bar_D_Ea_Specimen
+  1001332: Bar_D_Ic_Specimen
+  1001333: Bar_D_St_Specimen
+  1001334: Bar_D_So_Specimen
+  1001335: Bar_D_Pu_Specimen
+  1001336: Bar_D_Co_Specimen
+  1001337: Bar_D_Po_Specimen
   1001360: R_Saphir_Hall_OS
   1001361: R_ElectricFox_OS
   1001362: R_Rutilus_Stick_OS
@@ -23225,23 +23233,23 @@ items:
   1001411: R_Ep172_Bh_Sword
   1001412: R_Ep172_Bh_Bow3
   1001414: MD_Hol_Fragment
-  1001415: aegis_1001415
+  1001415: MD_Hol_Key
   1001419: SkyEmperorStone_Robe
   1001420: ElementalStone_Robe
   1001421: MeisterStone_Robe
-  1001424: aegis_1001424
-  1001425: aegis_1001425
-  1001426: aegis_1001426
-  1001427: aegis_1001427
-  1001428: aegis_1001428
-  1001429: aegis_1001429
-  1001430: aegis_1001430
-  1001431: aegis_1001431
-  1001432: aegis_1001432
-  1001433: aegis_1001433
-  1001434: aegis_1001434
-  1001435: aegis_1001435
-  1001436: aegis_1001436
+  1001424: Hot_Water_Drop_Gem
+  1001425: Ice_Water_Drop_Gem
+  1001426: Dry_Wind_Leaf_Gem
+  1001427: Storm_Wind_Leaf_Gem
+  1001428: Red_Flame_Heart_Gem
+  1001429: Blue_Flame_Heart_Gem
+  1001430: Firm_Land_Crystal
+  1001431: Green_Land_Crystal
+  1001432: Contored_Spi_Wrath
+  1001433: Contored_Agn_Wrath
+  1001434: Contored_Aqu_Wrath
+  1001435: Contored_Ven_Wrath
+  1001436: Contored_Ter_Wrath
   1001440: Energy_Of_Spring
   1001441: Energy_Of_Summer
   1001442: Energy_Of_Autumn
@@ -23268,9 +23276,9 @@ items:
   1001463: Energy_Of_Wind
   1001464: Energy_Of_Ground
   1001465: Grace_Of_Spirit
-  1001478: aegis_1001478
-  1001479: aegis_1001479
-  1001480: aegis_1001480
+  1001478: Cubic_Dia
+  1001479: Black_Dia
+  1001480: Brown_Dia
   1001487: AbysschaserStone_Robe
   1001488: TRTRStone_Robe
   1001489: HNoviceStone_Robe
