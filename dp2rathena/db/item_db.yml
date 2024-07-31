@@ -761,7 +761,7 @@ items:
   1441: Ru_Blue_Spear
   1442: Ru_Gold_Spear
   1443: Scarlet_Spear
-  1445: Rental_Hunting_Spear
+  1445: Spear_of_Trust2
   1446: Requiem_Spear
   1447: Poison_Forged_Spear
   1448: Warrior's_Spear
@@ -13318,6 +13318,8 @@ items:
   25499: WanderMinstStone_Middle
   25500: WanderMinstStone_Bottom
   25501: WanderMinstreStone_Robe
+  25503: Flower_V
+  25504: Visionary_Ticket
   25505: Jokers_Wild
   25506: Cute_Broom
   25507: Showy_Coral_Reef
@@ -17352,6 +17354,11 @@ items:
   66160: Time_Dimension_Rune_Charm
   66161: 2nd_Perk_-_Hasty_Shadow
   66162: Lost_Soul_Dungeon_Reset
+  66163: Spend_Promotion_July_2024
+  66164: Mega_Spend_July_2024
+  66165: Ultimate_Spend_July_2024
+  66166: Costume_Crimson_Neon_Butterfly
+  66167: Costume_Magenta_Flame
   70001: Weapon_Costume_-_Arch_Rifle
   70002: Weapon_Costume_-_Bayonet
   70003: Weapon_Costume_-_Blazing_Piercer
@@ -18026,6 +18033,7 @@ items:
   102397: FA_Armor_Reform_2
   102433: Unsealing_Scroll
   102434: Warm_Shield_Scroll
+  102440: R_Ep17_Box
   102441: Enchant_Stone_Box32
   102482: FateSin_Boots_Hammer
   102514: Season_H_Upgrade
@@ -18057,8 +18065,11 @@ items:
   102668: Dimen_W_Refine
   102676: Loki_Coin_4
   102677: Loki_Advice_4
+  102767: R_Ep17_Album
   102795: Forgotten_Crystal_1
   102796: Forgotten_Crystal_2
+  102813: R_Ep178_boss
+  102815: R_Sealed_Card
   102900: Refine_Furious
   103034: aegis_103034
   200185: LI_Nyangvine_Box1_26
@@ -18342,6 +18353,7 @@ items:
   300472: Demigod_Lasgand_Card
   300473: Snow_Angel_Card
   300474: Rgan_Chief_Clean_Card
+  300482: R_Recycle_Card
   310000: Ranger_Top2
   310001: Ranger_Middle2
   310002: Ranger_Bottom2
@@ -20602,6 +20614,8 @@ items:
   400396: Evil's_Whisper
   400408: Clockwise
   400409: aegis_400409
+  400414: C_Armored_Copo
+  400415: C_Egg_Copo
   400420: Dragon_Circlet
   400421: Two_Tone_Cap
   400445: Officer_Cap_LT
@@ -23131,6 +23145,8 @@ items:
   1001261: D_EpisodClear17
   1001262: D_EpisodClear18
   1001263: D_EpisodClear19
+  1001282: Imperfect_Rune
+  1001283: Perfect_Rune
   1001289: Bar_D_Docu_1
   1001290: Bar_D_Fl_Energy
   1001291: Bar_D_Ea_Energy
@@ -23346,10 +23362,62 @@ items:
   1001599: Unknown_Meteorite_F
   1001600: Energy_Of_Elemental
   1001601: Genesis_Of_Life
+  1001689: R_Snowflower_Armor
+  1001690: R_Snowflower_Manteau
+  1001691: R_Snowflower_Boots
+  1001692: R_Snowflower_Pendant
+  1001693: R_Snowflower_Necklace
+  1001694: R_Snowflower_Robe
+  1001695: R_Snowflower_Muffler
+  1001696: R_Snowflower_Shoes
+  1001697: R_Snowflower_Ring
+  1001698: R_Snowflower_Earring
+  1001699: R_Glacier_T_Sword
+  1001700: R_Glacier_Lance
+  1001701: R_Glacier_Sword
+  1001702: R_Glacier_B_Sword
+  1001703: R_Glacier_Spear
+  1001704: R_Glacier_T_Axe
+  1001705: R_Glacier_Axe
+  1001706: R_Glacier_Mace
+  1001707: R_Glacier_M_Mace
+  1001708: R_Glacier_R_Knife
+  1001709: R_Glacier_B_Knife
+  1001710: R_Glacier_Knuckle
+  1001711: R_Glacier_Katar
+  1001712: R_Glacier_Bow
+  1001713: R_Glacier_Violin
+  1001714: R_Glacier_Whip
+  1001715: R_Glacier_Humma
+  1001716: R_Glacier_Book
+  1001717: R_Glacier_Wand
+  1001718: R_Glacier_Staff
+  1001719: R_Glacier_Foxtail
+  1001720: R_Glacier_Revolver
+  1001721: R_Glacier_Rifle
+  1001722: R_Glacier_Shotgun
+  1001723: R_Glacier_Gatling
+  1001724: R_Glacier_Launcher
   1100003: Concentrated_R_P
   1100004: Concentrated_B_P
   1100005: Concentrated_G_P
   1100006: Ep19_Dry_Icegangu
+  1100007: Fried_Sausage
+  1100008: Juicy_Sausage
+  1100009: South_Pork_Ricebowl
+  1100010: Poring_Kombucha
+  1100011: Monster_Bread
+  1100012: Monster_Bread_
+  1100013: South_Pork_Slice
+  1100014: Grilled_Fish
+  1100015: Grilled_Veg_Skewers_
+  1100016: Night_M_Ice_Flakes
+  1100017: Night_M_Ice_Cream
+  1100018: Night_M_Cotton_Candy
+  1100019: Grilled_Veg_Skewers
+  1100020: Grilled_Hm_Sausage
+  1100021: 2403_ev_Berry_Cup
+  1100022: 2403_ev_Macaron
   1220001: Kunai
   1220002: Kunai_Of_Nothing
   1220003: Kunai_Of_Shadow
