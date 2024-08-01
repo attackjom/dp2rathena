@@ -14,6 +14,9 @@ class Mapper:
         # Structure = {'AL_TELEPORT': 26}
         self.skill_name_db = dict()
 
+        # Load mob names from file
+        self.mob_name_db = self._load_mob_names('mob_name.txt')
+
         self.schema = {
             'MobId': self._id,
             'Dummy': self._dummy_value,        # Rathena info value
@@ -111,6 +114,14 @@ class Mapper:
 
         self.emote_skills = ['NPC_EMOTION', 'NPC_EMOTION_ON']
 
+    def _load_mob_names(self, file_path):
+        mob_name_db = {}
+        with open(file_path, 'r') as file:
+            for line in file:
+                mob_id, mob_name = line.strip().split(',')
+                mob_name_db[int(mob_id)] = mob_name
+        return mob_name_db
+
     # Used for lazy loading skill_db.yml as loading is slow
     def _require_skill_db(self):
         if self.skill_db is None:
@@ -133,10 +144,12 @@ class Mapper:
         return parent_data['id']
 
     def _dummy_value(self, data, parent_data):
+        mob_id = parent_data['id']
+        mob_name = self.mob_name_db.get(mob_id, 'Unknown Mob')
         skill_name = self._skill_db_value(data['skillId'], 'Name')
         if skill_name is not None:
-            return parent_data['name'] + '@' + skill_name
-        return parent_data['name'] + '@Unknown Skill'
+            return mob_name + '@' + skill_name
+        return mob_name + '@Unknown Skill'
 
     def _status(self, data, parent_data = {}):
         if data['status'] is None:
