@@ -49,7 +49,7 @@ class Mapper:
             'DamageTaken': self._damageTaken,
             'Ai': self._ai,
             'Class': self._class,
-            # 'Modes'': None, # TODO: not currently mapped
+            'Modes': self._modes,
             'MvpDrops': self._mvpdrops,
             'Drops': self._drops,
         }
@@ -170,6 +170,24 @@ class Mapper:
         else:
             return None
 
+    # Define the _modes method
+    def _modes(self, data):
+        modes = {}
+        if 'mvpdrops' in data and data['mvpdrops']:
+            modes['Mvp'] = True
+
+        race = data['stats'].get('race')
+        if race in [4, 6]:  # Assuming '4' is Insect and '6' is Demon
+            modes['Detector'] = True
+
+        # Check if the monster is a Boss
+        monster_class = data['stats'].get('class')
+        if monster_class == 1:  # Assuming '1' represents Boss class
+            modes.pop('Detector', None)
+
+        if modes:
+            return modes
+        return None
 
     # Last two characters e.g. 'MONSTER_TYPE_13' -> 13
     def _ai(self, data):
