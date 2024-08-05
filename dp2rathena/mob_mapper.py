@@ -185,6 +185,20 @@ class Mapper:
         if monster_class == 1:  # Assuming '1' represents Boss class
             modes.pop('Detector', None)
 
+        # Check the attr value and set the corresponding modes
+        attr = data['stats'].get('attr')
+        if attr is not None:
+            if attr & 1:
+                modes['Ignoremelee'] = True
+            if attr & 2:
+                modes['Ignoremagic'] = True
+            if attr & 4:
+                modes['Ignoreranged'] = True
+            if attr & 16:
+                modes['Ignoremisc'] = True
+            if attr & 32:
+                modes['Knockbackimmune'] = True
+
         if modes:
             return modes
         return None
