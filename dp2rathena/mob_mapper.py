@@ -28,12 +28,12 @@ class Mapper:
             'MagicDefense': lambda d: d['stats']['magicDefense'],
             'Resistance': lambda d: d['stats']['res'],
             'MagicResistance': lambda d: d['stats']['mres'],
-            'Str': lambda d: d['stats']['str'],
-            'Agi': lambda d: d['stats']['agi'],
-            'Vit': lambda d: d['stats']['vit'],
-            'Int': lambda d: d['stats']['int'],
-            'Dex': lambda d: d['stats']['dex'],
-            'Luk': lambda d: d['stats']['luk'],
+            'Str': lambda d: max(d['stats']['str'], 1),
+            'Agi': lambda d: max(d['stats']['agi'], 1),
+            'Vit': lambda d: max(d['stats']['vit'], 1),
+            'Int': lambda d: max(d['stats']['int'], 1),
+            'Dex': lambda d: max(d['stats']['dex'], 1),
+            'Luk': lambda d: max(d['stats']['luk'], 1),
             'AttackRange': lambda d: d['stats']['attackRange'],
             'SkillRange': lambda d: d['stats']['aggroRange'],
             'ChaseRange': lambda d: d['stats']['escapeRange'],
@@ -42,10 +42,10 @@ class Mapper:
             # 'RaceGroups': None, # unique to rathena
             'Element': self._element,
             'ElementLevel': self._elementLevel,
-            'WalkSpeed': lambda d: int(d['stats']['movementSpeed']),
-            'AttackDelay': lambda d: int(d['stats']['rechargeTime']),
-            'AttackMotion': lambda d: int(d['stats']['attackSpeed']),
-            'DamageMotion': lambda d: int(d['stats']['attackedSpeed']),
+            'WalkSpeed': lambda d: min(int(d['stats']['movementSpeed']), 1000),
+            'AttackDelay': lambda d: max(int(d['stats']['rechargeTime']), 1),
+            'AttackMotion': lambda d: max(int(d['stats']['attackSpeed']), 1),
+            'DamageMotion': lambda d: max(int(d['stats']['attackedSpeed']), 1),
             'DamageTaken': self._damageTaken,
             'Ai': self._ai,
             'Class': self._class,
@@ -57,8 +57,8 @@ class Mapper:
         self.drops_schema = {
             'Item': lambda d: self.item_db[d['itemId']] if d['itemId'] in self.item_db else d['itemId'],
             'Rate': 'chance',
-            'StealProtected': lambda d: True if d['stealProtected'] else None
-            # 'RandomOptionGroup': None, # not provided by DP
+            'StealProtected': lambda d: True if d['stealProtected'] else None,
+            'RandomOptionGroup': lambda d: d['optionGroup'] if 'optionGroup' in d and d['optionGroup'] != 'G0' else None
             # 'Index': None, # not provided by DP
         }
 
