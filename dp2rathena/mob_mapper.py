@@ -100,6 +100,7 @@ class Mapper:
             2: 'Guardian',
             4: 'Battlefield',
             5: 'Event',
+            6: 'Champion',
         }
 
     # Used for lazy loading item_db.yml as loading is slow
@@ -123,7 +124,7 @@ class Mapper:
             elif arg == 'ai':
                 assert v == "" or v.startswith('MONSTER_TYPE_'), msg
             elif arg == 'class':
-                assert v in [0, 1, 2, 4, 5], msg
+                assert v in [0, 1, 2, 4, 5, 6], msg
 
     def _sp(self, data):
         self._validate(data['stats'], 'sp')
@@ -207,7 +208,7 @@ class Mapper:
     def _ai(self, data):
         self._validate(data['stats'], 'ai')
         if data['stats']['ai'] == '':
-            return 'Unknown'
+            return None
         return data['stats']['ai'][-2:]
 
     def _class(self, data):
