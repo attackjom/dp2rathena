@@ -41,7 +41,7 @@ class Mapper:
             'Race': self._race,
             'Element': self._element,
             'ElementLevel': self._elementLevel,
-            'WalkSpeed': lambda d: min(int(d['stats'].get('movementSpeed', 0) or 0), 1000),
+            'WalkSpeed': lambda d: min(int(d['stats'].get('movementSpeed', 0) or 200), 1000),
             'AttackDelay': lambda d: max(int(d['stats'].get('rechargeTime', 0) or 0), 1),
             'AttackMotion': lambda d: max(int(d['stats'].get('attackSpeed', 0) or 0), 1),
             'DamageMotion': lambda d: max(int(d['stats'].get('attackedSpeed', 0) or 0), 1),
@@ -137,28 +137,28 @@ class Mapper:
         self._validate(data['stats'], 'scale')
         scale = data['stats']['scale']
         if scale is None:
-            return 'Unknown'
+            return 'Small'
         return self.scale_map[scale]
 
     def _race(self, data):
         self._validate(data['stats'], 'race')
         race = data['stats']['race']
         if race is None or race < 0 or race > 9:
-            return 'Unknown'
+            return 'Formless'
         return self.race_map[race]
 
     def _element(self, data):
         self._validate(data['stats'], 'element')
         element = data['stats']['element']
         if element is None:
-            return 'Unknown'
+            return 'Neutral'
         return self.element_map[element % 10]
 
     def _elementLevel(self, data):
         self._validate(data['stats'], 'element')
         element = data['stats']['element']
         if element is None:
-            return 'Unknown'
+            return '1'
         return int(element / 20)
 
     # 10% for MVPs, 100% for all other mobs
@@ -260,5 +260,5 @@ class Mapper:
         elif 'stats' not in data or len(data['stats']) == 0:
             return {'Id': data['id'], 'AegisName': data['dbname'], 'Error': 'Mob stat data missing'}
         elif 'name' not in data or data['name'] is None:
-            return {'Id': data['id'], 'AegisName': data['dbname'], 'Error': 'General mob data missing'}
+            data['name'] = data['dbname']  # Assign 'dbname' to 'name' if 'name' is missing or None
         return self._map_schema(self.schema, data)
